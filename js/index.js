@@ -4,4 +4,4 @@ var HelloWorld = React.createClass({
     }
 });
 
-React.render(new HelloWorld({ name: "Nicole Seo" }), document.body);
+ReactDOM.render(new HelloWorld({ name: "Nicole Seo" }), document.body);
